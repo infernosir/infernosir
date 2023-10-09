@@ -1,0 +1,520 @@
+/* home */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(216, 232, 237);
+  padding: 10px;
+}
+.navbar-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+}
+
+.navbar-links li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  color: #000;
+}
+/* services part here*/
+#service{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+background-image: linear-gradient(to left, #553c9a, #b393d3);
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+}
+.services{
+ display:block;
+ align-items: center;
+}
+.catdog{
+  display: flex;
+  justify-content: center;
+
+}
+.catdog img{
+  height: 500px;
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.services-container{
+  display: flex;  
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin:60px;
+  width: auto;
+}
+#container{
+  text-align: center;
+}
+.otherservicescont{
+  text-align: center;
+  height: auto;
+}
+.container-card img{
+  height: 150px;
+  width: 150px;
+  max-height: 100%;
+}
+#otherservices{
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.otherservice{
+  background-color:rgb(255, 220, 182);
+  border-radius: 20px;
+  margin: 30px;
+}
+.container-card {
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 70px;
+}
+/* aboutus  */
+.aboutus{
+  background-color:rgb(236, 201, 238);
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  padding: 10px;
+  margin:60px;
+}
+#about1{
+  border-right: 2px solid;
+  font-size: 40px;
+  padding: 20px;
+  width: auto;
+  text-align: center;
+}
+#about2{
+  font-size: 14px;
+  padding: 30px;
+  text-align: center;
+}
+/* reviews  */
+#reviews{
+  text-align: center;
+  font-size: 40px;
+  padding-right: 150px;
+  padding-left: 90px;
+  padding-top: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+.reviews{
+  background-color:rgb(192, 229, 255);
+  width: 1070px;
+  height: 500px;
+  margin-left: 250px;
+  margin-top: 200px;
+  border-radius: 20px;
+}
+.review-container{
+  display: flex;
+  padding-left: 110px;
+  
+}
+.review-card {
+  box-sizing: border-box;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: width 2s, background-color 1s, box-shadow 1s;
+  border-radius: 10px;
+  color: black;
+  
+}
+
+.review-card:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.wrapper {
+  justify-content: center;
+  display: flex;
+  padding:40px;
+
+}
+
+a {
+  text-decoration: none;
+}
+#name {
+  font-size: 24px;
+}
+#exp{
+  font-size: 12px;
+}
+/* brand work  */
+.brand-container{
+  display: block;
+  text-align: center;
+  margin: 60px;
+  
+}
+.brands{
+  background-color: rgb(201, 167, 235);
+  width: auto;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  margin:auto;
+  padding: 30px;
+}
+.brands img{
+  height: auto;
+  width: 30%;
+}
+#brands{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+/* socials */
+.email{
+  color: black;
+}
+.email input{
+  max-width: fit-content;
+  width: 100%;
+  height: 25px;
+  border: none;
+  color: black;
+  border-radius: 4px;
+}
+.fa-brands
+{
+  color:black;
+  font-size: 40px;
+}
+.fa-facebook:hover{
+  color: blue;
+}
+.fa-instagram:hover{
+  color:rgb(169, 3, 136);
+}
+.fa-twitter:hover{
+  color:cyan;
+}
+.fa-whatsapp:hover{
+  color: green;
+}
+.fa-brands{
+  padding: 10px;
+}
+.social{
+  font-size:30px;
+  display:flex;
+}
+a{
+  text-decoration: none;
+}
+/* footer part here  */
+
+footer{
+  background-color:rgb(147, 132, 209);
+
+  }
+  .footer{
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+      width: auto;
+      column-gap: 100px;
+  }
+  .about{
+      text-align: center;
+      color:black;
+      font-size: 30px;
+  }
+  .address{
+      color:black;
+      text-align: center;
+      font-size: 15px;
+      padding: 5px;
+  }
+  .footerhead{
+      font-size: 17px;
+      text-decoration: underline;
+  }
+  .footer_nav{
+      display:block;
+      font-size: 17px;
+      padding: 5px;
+      list-style: none;
+  }
+  .footer_nav a{
+      color:black;
+  }
+  .footer_nav a:hover{
+      text-decoration: underline;
+  }
+  .news{
+      display: flex;
+      flex-direction: column;  
+      width: auto;
+  }
+/*Dogs and cats gallery*/
+.cardd
+{
+display: inline-block;
+}
+.cardd{
+  transition: 0.3s;
+  padding: 40px;
+  padding-right: 70px;
+  background-color:rgb(192, 229, 255);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 50px;
+  margin-left: 110px;
+}
+.cardd:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.dog-card-container {
+  padding: 2px 16px;
+}
+.dog-card-container h2{
+  padding-left: 3px;
+}
+a{
+  text-decoration: none;
+}
+
+/* carousel */
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #85a8c5;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 490px;
+  background-color: #fff;
+}
+
+.carousel-item-text {
+  font-size: 1.15rem;
+  margin: 40px 0 40px 0;
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  color: #617d98;
+}
+.carousel-img {
+  width: 250px;
+  padding: 0 20px 0 20px;
+}
+
+/* final stage */
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.indicator-symbol {
+  color: #26343f;
+}
+
+.indicator-symbol-active {
+  color: #ffffff;
+}
+.carousel{
+  width: auto;
+  height:fit-content;
+  margin: 60px;
+  border-radius: 10px;
+}
+/* form */
+.contact-head{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 35px;
+  color:rgb(75, 221, 75);
+}
+.contact-para{
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+}
+.contact-info{
+  margin-top: 80px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+margin-right: 40px;
+ column-gap: 60px;
+}
+.mydata{
+  padding-left: 30px;
+  background-color:#85a8c5;
+  border: black solid;
+  width: 300px;
+  height: 400px;
+  border-radius: 40px;
+}
+.info-head{
+  font-size: 20px;
+  margin-top: 40px;
+}
+.info-para{
+  margin-top: 20px;
+}
+.icon-info {
+  margin-top: 70px;
+}
+.icon-info p{
+  padding-bottom: 30px;
+}
+.icon-info .fa-phone-volume{
+  color: black;
+}
+.c-icons a{
+  text-decoration: none;
+}
+.c-icons .fa-brands{
+    color: black;
+    width: 30px;
+    height: 30px;
+    background-color:grey;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-top: 50px;
+ }
+ .fa-facebook-f:hover{
+    color: blue;
+ }
+ .fa-twitter:hover{
+    color: rgb(40, 181, 236);
+}
+.fa-instagram:hover{
+    color:rgb(190, 42, 141);
+}
+.fa-whatsapp:hover{
+    color: green;
+}
+
+
+.c-form{
+  width: 500px;
+}
+.c-form form input{
+  
+  background: transparent;
+  color: black;
+  border: 0px;
+  outline: none;
+}
+.c-form form input{
+  width: 400px;
+  border-bottom: 1px solid;
+  margin: 10px 0px;
+}
+.c-form form textarea{
+  border: 0px;
+  outline: none;
+}
+.c-form form textarea{
+  border-bottom: 1px solid;
+}
+.c-form input[type=submit]{
+  border: 1px solid rgb(75, 221, 75);
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;  
+  background-color:rgb(75, 221, 75); ;
+}
+.s-message{
+  margin-left: 300px;
+}
+.s-message:hover{
+  transform: scale(1.02);
+  transition: .5s;
+}
